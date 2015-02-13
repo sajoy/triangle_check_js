@@ -10,11 +10,19 @@
   <body>
     <div class="container">
       <div class="content">
-        <form id="sides" action="index.html" method="post">
-
+        <h1>What kind of triangle are you?</h1>
+        <form id="sides">
+          <label for="side1">Length of Side A:</label>
+          <input type="text" class="form-control" id="side1">
+          <label for="side2">Length of Side B:</label>
+          <input type="text" class="form-control" id="side2">
+          <label for="side3">Length of Side C:</label>
+          <input type="text" class="form-control" id="side3">
+          <button type="submit" class="btn btn-xs btn-success form-control">calculate</button>
         </form>
-        testing uno dos tres
-        put a form in here, plus two results divs: YAY or NAY
+        <div id="result">
+          <h1><span class="result"></span></h1>
+        </div>
       </div>
       <div class="tri_shape1 left"></div>
       <div class="tri_shape3 middle"></div>

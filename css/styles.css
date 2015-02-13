@@ -1,16 +1,22 @@
 .container {width: 100%;}
 
+h1{font-size: 2.5em;}
+
 .content{
   position: absolute;
   top: 30%;
   left: 50%;
-  height: 400px;
+  height: auto;
   width: 500px;
   background-color: #fff;
   border: 1px solid black;
   padding: 15px;
   z-index: 2;
 }
+
+label, .btn {margin-top: 10px;}
+
+#result {display: none;}
 
 .tri_shape1 {
   width: 0;
