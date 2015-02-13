@@ -14,5 +14,4 @@ describe('triangleCheck', function() {
   it('will return "scalene" if no sides are equal', function() {
     expect(triangleCheck(3,4,5)).to.equal("scalene");
   });
-
 });
