@@ -11,4 +11,8 @@ describe('triangleCheck', function() {
     expect(triangleCheck(6,6,4)).to.equal("isosceles");
   });
 
+  it('will return "scalene" if no sides are equal', function() {
+    expect(triangleCheck(3,4,5)).to.equal("scalene");
+  });
+
 });
